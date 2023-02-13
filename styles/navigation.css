@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+}
+
+.navigation-wrapper {
+    background-image: linear-gradient(180deg, #9cdbd9, #051C2C);
+    margin:0;
+    border-bottom: solid 4px;
+    border-image: linear-gradient(70deg, #e4002b, #051c2c) 1;
+    margin-bottom: 1em;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    font-family: 'Westerion', sans-serif; 
+    color: #051C2C;
+    font-size: 1.5rem;
+}
+
+.fa-hockey-sticks {
+    font-size: 5rem;
+}
+
+
+.nav-link-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    width: 6rem;
+    padding:1rem;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: #9cdbd9;
+    font-family: 'Westerion', sans-serif;
+    font-size: 1.5rem;
+    transition: 1s;
+}
+
+.nav-link a:hover {
+    letter-spacing: .5px;
+    color: #e4002b;
+    text-decoration: underline #e4002b;
+}
+
+/*Helpers*/
+
+.back-to-top {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+#top {
+    background-color: #e4002b;
+    color: #051c2c;
+    font-family: 'Westerion', sans-serif;
+    font-size: 1.5rem;
+    border: #9cdbd9 2px solid;
+    border-radius: 4px;
+    padding: .7rem;
+    font-weight: 400;
+}

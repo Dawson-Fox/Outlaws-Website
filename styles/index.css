@@ -1,0 +1,77 @@
+.home-heading {
+    display: flex;
+    color: #051c2c;
+}
+
+.home-heading > img {
+    padding-top: 0rem;
+}
+
+#outlaw {
+    height: 12rem;
+    margin-left: auto;
+    padding-bottom: 1rem;
+    padding-right: 9rem;
+}
+
+.home-heading > h3 {
+    background-color: #e4002b;
+    width: fit-content;
+    height: 3rem;
+    margin-top: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border: solid #e4002b 4px;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    font-family: 'Westerion', sans-serif;
+    font-size: 3rem;
+}
+
+/*Heading helpers*/
+h1, h3 {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+/*Content*/
+
+.home-body {
+    display: flex;
+    justify-content: center;
+}
+
+.content-heading > h5 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Westerion', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    color: #051c2c;
+    padding-left: 1.5rem;
+}
+
+.container-wrapper > img {
+    height: 15vw;
+    float: left;
+    margin: 23px 40px 20px 0px;
+    border: 1px solid #051c2c;
+    border-radius: 1px;
+}
+
+.container-wrapper {
+    width: 1000px;
+    height: fit-content;
+    padding-bottom: 4rem;
+}
+
+.container-wrapper > p {
+    line-height: 2.4rem;
+    letter-spacing: .05rem;
+    font-family: 'Merriweather', serif;
+     color: #051c2c;
+}
+
